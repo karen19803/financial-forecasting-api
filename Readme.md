@@ -66,9 +66,9 @@ GET /forecast
 
 Query parameters:
 
-- department: Department name
-- metric: revenue or expense
-- periods: Number of future months (default: 12)
+- `department`: Department name
+- `metric`: revenue or expense
+- `periods`: Number of future months (default: 12)
 
 Response includes predicted values and confidence intervals.
 
@@ -93,7 +93,7 @@ This endpoint:
 ## Exploratory Data Analysis
 
 Exploratory Data Analysis (EDA) and data validation were performed offline using Jupyter notebooks.
-These steps are not part of the production pipeline and are provided for reference in the ```bash notebooks/ ```directory.
+These steps are not part of the production pipeline and are provided for reference in the ``` notebooks/ ```directory.
 
 ---
 
