@@ -83,10 +83,10 @@ POST /retrain
 
 This endpoint:
 
--Reloads historical data
--Retrains all Prophet models in batch
--Updates saved models and in-memory instances
--Does not require restarting the API service
+- Reloads historical data
+- Retrains all Prophet models in batch
+- Updates saved models and in-memory instances
+- Does not require restarting the API service
 
 ---
 
