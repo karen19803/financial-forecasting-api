@@ -74,7 +74,7 @@ Response includes predicted values and confidence intervals.
 
 ---
 
-## Retrain
+### Retrain
 Retrains all models using the latest data from the database.
 
 ```bash
